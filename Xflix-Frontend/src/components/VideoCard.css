@@ -1,0 +1,23 @@
+.videocard-content {
+  text-align: left;
+  width: 100%;
+  padding: 0;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* 
+.link:focus {
+    color: #00a278;
+}
+
+.link:active {
+    color: #45c09f;
+}
+
+.link:visited {
+    color: #45c09f;
+} */

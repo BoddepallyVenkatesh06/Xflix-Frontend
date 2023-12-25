@@ -1,0 +1,117 @@
+.hr-div {
+  margin: 1.25rem 7.5rem 0 7.5rem;
+}
+hr {
+  background-color: #d8d8d880;
+  border: none;
+  height: 2px;
+}
+
+.circular-progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  width: 100%;
+  height: 30%;
+  grid-gap: 5px;
+}
+.iframe-container {
+  margin-top: 3rem;
+  position: relative;
+  padding-bottom: 51.25%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.main-video-box {
+  margin: 1.25rem 7.5rem 1.25rem 7.5rem;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+.text {
+  padding-top: 1rem;
+  color: #ffffff;
+}
+
+.title {
+  display: block;
+  margin: 0;
+  padding-bottom: 0.8rem;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: #c2c2c2;
+}
+
+.container-text-and-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons-div {
+  padding: 2rem;
+  padding-right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* .container {
+    position: relative;
+    width: 100%;   
+    padding: 1.25rem 7.5rem 0 7.5rem;    
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+/* } */
+/*
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  } */
+
+@media screen and (max-width: 480px) {
+  .main-video-box {
+    margin: 1.25rem 1.3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-text-and-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buttons-div {
+    padding: 2rem;
+    padding-right: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+  }
+}

@@ -1,0 +1,33 @@
+.genrepanel {
+  background-color: #202020;
+  display: flex;
+  padding: 1.3rem;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.genres {
+  display: flex;
+  justify-content: center;
+  grid-gap: 2.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.genre-button-select {
+  color: rgb(88, 96, 105);
+  background: aliceblue;
+  /* height:2rem;
+    width:5rem;
+    border-radius: 0.7rem; */
+}
+
+@media screen and (max-width: 809px) {
+  .genrepanel {
+    gap: 0;
+  }
+  .genres {
+    grid-gap: 0;
+    justify-content: space-around;
+  }
+}

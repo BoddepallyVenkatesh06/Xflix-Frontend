@@ -1,0 +1,17 @@
+.dialog-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.dialog-content {
+}
+
+.form-element {
+}
